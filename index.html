@@ -18,66 +18,72 @@ img { display: block; width: 100%; height: auto; }
 </style>
 </head>
 <body>
-<nav aria-label="Resume options"><a href="resume.pdf" download="Shayan-Sanjideh-Resume.pdf">Download PDF</a></nav>
+<nav aria-label="Resume options"><a href="resume.pdf?v=75b9028465e2" download="Shayan-Sanjideh-Resume.pdf">Download PDF</a></nav>
 <main aria-label="Shayan Sanjideh’s resume">
-<img src="resume.png" width="1224" height="1584" alt="" aria-hidden="true">
-<div class="sr-only"> 
-Shayan Sanjideh 
+<img src="resume.png?v=75b9028465e2" width="1224" height="1584" alt="" aria-hidden="true">
+<div class="sr-only">
+Shayan Sanjideh
 U.S. Citizen​
-shayansanjideh@gmail.com | 571-344-5985 | linkedin.com/in/shayan-sanjideh | github.com/shayansanjideh 
-WORK EXPERIENCE 
+shayansanjideh@gmail.com | 571-344-5985 | linkedin.com/in/shayan-sanjideh | github.com/shayansanjideh
+AI PROJECTS
+Nope​
+github.com/shayansanjideh/nope
+Formally verified permission layer for AI agents​
+2026
+●​ Drop-in MCP proxy that tracks where data came from on agent tool calls: secrets can&#x27;t leave the machine, and
+untrusted content can&#x27;t trigger a push, deploy, or config edit without user approval.
+●​ Proved noninterference in Lean 4: secrets can&#x27;t influence outbound calls and injected content can&#x27;t trigger
+protected actions, whatever the model does; the proven code is the shipped engine.
+●​ Stays out of the way for normal work: 40 of 40 tool calls went through with zero blocks across 8 everyday
+Claude Code tasks.
+Learning Inference​
+github.com/shayansanjideh/learning-inference
+●​ Replaced .generate() with a custom prefill/decode loop for SmolLM2-135M, matching its output tokens
+exactly.
+●​ Measured ~4.3× faster generation with KV caching (64-token prompt, 32 output tokens); benchmarked prefill
+and decode separately across prompt lengths.
+WORK EXPERIENCE
 Move Industries​
-Remote 
+Remote
 Forward Deployed Engineer​
-October 2024 – Present 
-●​ Built an on-chain vault integration end-to-end in Move for ecosystem partner Zoth, translating product 
-requirements into deployable smart contracts and resolving platform-specific constraints. 
-●​ Work directly with fintech and blockchain partners across pre-sales and post-sales, scoping technical 
-requirements, validating feasibility, and driving integrations through implementation. 
-●​ Spend approximately 75% of my time writing production code, building partner integrations and full-stack 
-applications from requirements through deployment. 
-●​ Delivered SDK and tooling integrations with partner engineering teams, troubleshooting implementation 
-issues and supporting production readiness. 
-●​ Act as the technical bridge between external partners and internal product and engineering teams, surfacing 
-blockers and translating partner feedback into technical requirements. 
+October 2024 – Present
+●​ Integrated Circle&#x27;s USDCx stablecoin on Movement, working with Circle&#x27;s engineering team from technical
+scoping through production launch.
+●​ Built Zoth&#x27;s tokenized-vault integration end-to-end in Move, from requirements to deployed smart contracts.
+●​ Worked with Sorted Wallet and Stableyard on stablecoin integrations and adoption, including payments
+products for emerging markets.
+●​ Own integrations for fintech and blockchain partners across pre- and post-sales, from scoping and proofs of
+concept to production code, feeding partner needs back to product.
 Injective Labs​
-Remote 
+Remote
 Developer Relations Manager​
-February 2024 – October 2024 
-●​ Supported developers building on Injective through technical troubleshooting, implementation guidance, 
-documentation, and direct developer support. 
-●​ Authored developer documentation, technical tutorials, and implementation guides for platform APIs, tooling, 
-and application development. 
-●​ Delivered technical presentations and workshops for engineering audiences at global industry events. 
-●​ Designed and ran technical hackathon programs, evaluated implementations, and used developer feedback to 
-improve onboarding and developer experience. 
+February 2024 – October 2024
+●​ Guided developer teams building on Injective through implementation and debugging, and wrote tutorials and
+implementation guides for platform APIs and tooling.
+●​ Designed and ran technical hackathons, evaluating submitted implementations and turning developer
+feedback into onboarding and tooling improvements.
+●​ Delivered technical workshops for engineering audiences at global industry events.
 Sui Foundation​
-Remote 
+Remote
 Developer Relations Engineer​
-January 2023 – February 2024 
-●​ Worked directly with ecosystem developers to troubleshoot technical issues and support application 
-onboarding on Sui. 
-●​ Created technical documentation and tutorials covering platform tooling, application development, and 
-developer workflows. 
-●​ Presented platform capabilities and development workflows to engineering audiences at global industry 
-events. 
-●​ Gathered recurring developer pain points and worked with internal teams to improve documentation, tooling, 
-and onboarding. 
-TECHNICAL SKILLS 
-Languages: Rust, TypeScript, Python, Move, Solidity 
-Engineering: API and SDK integrations, smart contracts, full-stack development, technical troubleshooting, 
-proof-of-concept development, developer tooling 
-Customer-Facing: Technical discovery, solution scoping, partner onboarding, implementation support, pre-sales 
-and post-sales engineering 
-EDUCATION 
+January 2023 – February 2024
+●​ Troubleshot technical issues for ecosystem developers onboarding applications to Sui, and wrote
+documentation and tutorials on platform tooling and developer workflows.
+●​ Turned recurring developer pain points into documentation, tooling, and onboarding fixes with internal teams.
+TECHNICAL SKILLS
+Languages: Rust, TypeScript, Python, Move, Solidity, Lean 4
+AI: AI agents and agent security, MCP, Claude Code, LLM inference, formal verification
+Engineering: API and SDK integrations, smart contracts, full-stack development, technical troubleshooting,
+proof-of-concept development, developer tooling
+Customer-Facing: Technical discovery, solution scoping, partner onboarding, implementation support, pre-sales
+and post-sales engineering
+EDUCATION
 Virginia Tech​
-Blacksburg, VA 
+Blacksburg, VA
 Bachelor of Science in Mechanical Engineering​
-May 2022 
- 
- 
- 
- 
+May 2022
+
+
 </div>
 </main>
 </body>
