@@ -18,33 +18,14 @@ img { display: block; width: 100%; height: auto; }
 </style>
 </head>
 <body>
-<nav aria-label="Resume options"><a href="resume.pdf?v=a08f8719ae36" download="Shayan-Sanjideh-Resume.pdf">Download PDF</a></nav>
+<nav aria-label="Resume options"><a href="resume.pdf?v=cc3dbfb71aed" download="Shayan-Sanjideh-Resume.pdf">Download PDF</a></nav>
 <main aria-label="Shayan Sanjideh’s resume">
-<img src="resume.png?v=a08f8719ae36" width="1224" height="1584" alt="" aria-hidden="true">
+<img src="resume.png?v=cc3dbfb71aed" width="1224" height="1584" alt="" aria-hidden="true">
 <div class="sr-only">
 Shayan Sanjideh
-U.S. Citizen​
+Forward Deployed Engineer | Developer infrastructure, AI agents, and LLM inference​
+Northern Virginia | U.S. Citizen | Open to relocation​
 shayansanjideh@gmail.com | 571-344-5985 | linkedin.com/in/shayan-sanjideh | github.com/shayansanjideh
-AI PROJECTS
-Nope​
-github.com/shayansanjideh/nope
-Formally verified permission layer for AI agents​
-2026
-●​ Drop-in MCP proxy that tracks where data came from on agent tool calls: secrets can&#x27;t leave the machine, and
-untrusted content can&#x27;t trigger a push, deploy, or config edit without user approval.
-●​ Proved noninterference in Lean 4: secrets can&#x27;t influence outbound calls and injected content can&#x27;t trigger
-protected actions, whatever the model does; the proven code is the shipped engine.
-●​ Stays out of the way for normal work: 40 of 40 tool calls went through with zero blocks across 8 everyday
-Claude Code tasks.
-Neuron Lab​
-github.com/shayansanjideh/neuron-lab
-●​ Served Qwen3.5-4B via FastAPI; steered neurons gave the trait in up to 28/32 replies vs. 0/24 random.
-●​ Built a blind Claude Code judge and pre-registered tests, and published the results that didn&#x27;t reproduce.
-Learning Inference​
-github.com/shayansanjideh/learning-inference
-●​ Replaced .generate() with a custom prefill/decode loop for SmolLM2-135M, matching its output tokens.
-●​ Measured ~4.3× faster generation with KV caching (64-token prompt, 32 output tokens); benchmarked prefill
-and decode separately across prompt lengths.
 WORK EXPERIENCE
 Move Industries​
 Remote
@@ -53,18 +34,18 @@ October 2024 – Present
 ●​ Integrated Circle&#x27;s USDCx stablecoin on Movement, working with Circle&#x27;s engineering team from technical
 scoping through production launch.
 ●​ Built Zoth&#x27;s tokenized-vault integration end-to-end in Move, from requirements to deployed smart contracts.
-●​ Worked with Sorted Wallet and Stableyard on stablecoin integrations and adoption, including payments
-products for emerging markets.
-●​ Own integrations for fintech and blockchain partners across pre- and post-sales, from scoping and proofs of
-concept to production code, feeding partner needs back to product.
+●​ Shipped stablecoin integrations with Sorted Wallet and Stableyard, supporting their payments products for
+emerging markets.
+●​ Own integrations for 10+ fintech and blockchain partners across pre- and post-sales, from scoping and proofs
+of concept to production code, feeding partner needs back to product.
+●​ Delivered SDK and tooling integrations with partner engineering teams, troubleshooting implementation
+issues in their code and supporting them through deployment.
 Injective Labs​
 Remote
 Developer Relations Manager​
 February 2024 – October 2024
 ●​ Guided developer teams building on Injective through implementation and debugging, and wrote tutorials and
 implementation guides for platform APIs and tooling.
-●​ Designed and ran technical hackathons, evaluating submitted implementations and turning developer
-feedback into onboarding and tooling improvements.
 ●​ Delivered technical workshops for engineering audiences at global industry events.
 Sui Foundation​
 Remote
@@ -73,15 +54,32 @@ January 2023 – February 2024
 ●​ Troubleshot technical issues for ecosystem developers onboarding applications to Sui, and wrote
 documentation and tutorials on platform tooling and developer workflows.
 ●​ Turned recurring developer pain points into documentation, tooling, and onboarding fixes with internal teams.
+AI PROJECTS
+Nope​
+github.com/shayansanjideh/nope
+Security proxy for AI agent tool calls (MCP)​
+2026
+●​ Drop-in MCP proxy that tracks where data came from on agent tool calls: secrets can&#x27;t leave the machine, and
+untrusted content can&#x27;t trigger a push, deploy, or config edit without user approval.
+●​ Enforcement core is proven correct in Lean 4, and the proven code is the engine that ships.
+●​ No false blocks in normal use: 40 of 40 tool calls passed across 8 everyday Claude Code tasks.
+Learning Inference​
+github.com/shayansanjideh/learning-inference
+●​ Replaced .generate() with a custom prefill/decode loop for SmolLM2-135M, matching its output tokens.
+●​ Measured ~4.3× faster generation with KV caching; benchmarked prefill and decode separately.
+Neuron Lab​
+github.com/shayansanjideh/neuron-lab
+●​ Served Qwen3.5-4B via FastAPI and steered individual neurons; the target trait showed up in up to 28/32
+replies vs. 0/24 with random neurons.
+●​ Built a blind Claude Code judge and pre-registered tests, and published the results that didn&#x27;t reproduce.
 TECHNICAL SKILLS
-Languages: Rust, TypeScript, Python, Move, Solidity, Lean 4
-AI: AI agents and agent security, MCP, Claude Code, LLM inference, formal verification
+Languages: TypeScript, Python, Rust, Move, Solidity, Lean 4
+AI: AI agents, MCP, LLM inference and serving, KV caching, Claude Code
 Infra: AWS, GCP, Docker, FastAPI, REST APIs, PostgreSQL, CI/CD (GitHub Actions), Linux, GPU inference
-Engineering: API and SDK integrations, smart contracts, full-stack development, PoCs, dev tooling
+Engineering: API and SDK integrations, debugging customer code, technical docs, full-stack, PoCs
 EDUCATION
 Virginia Tech​
 Bachelor of Science in Mechanical Engineering​
-
 Blacksburg, VA
 May 2022
 
